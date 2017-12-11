@@ -55,3 +55,74 @@ nav a:hover {
   background-color: #6c8fe0;
   color: #fff;
 }
+
+@media only screen and (min-width: 25em) {
+
+  nav ul {
+    margin: 0 0 .9rem;
+  }
+
+  nav a {
+    float: left;
+    background-color: #18294f;
+    width: 50%;
+    text-align: center;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  nav a {
+    float: left;
+    background-color: #18294f;
+    width: 25%;
+    text-align: center;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  header {
+    background-color: #18294f;
+    overflow: hidden;
+  }
+
+  header h1 {
+    float: left;
+    background-color: #18294f;
+    text-align: left;
+    padding: .5em .75em;
+  }
+
+  nav ul {
+    float: right;
+    width: 50%;
+    margin-top: .9rem;
+  }
+
+  nav a {
+    background-color: #18294f;
+    text-align: center;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
+
+}
